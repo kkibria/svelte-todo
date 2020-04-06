@@ -48,10 +48,6 @@ Copy the Web client ID and save setting.  Lets say this value is ``somerandomstu
 ## Collection
 The collection ``todos`` will be created by the app automatically since the rule will allow creating a `todo` document inside the collection.
 
-> *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
->
-> *Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
 ## Get started
 
 Install the dependencies...
@@ -87,3 +83,6 @@ Use firebase cli,
 firebase deploy
 ```
 Now open the url provided at the end of deploy process.
+
+> *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*\
+> *Note that you will need to have [Node.js](https://nodejs.org) installed.*
