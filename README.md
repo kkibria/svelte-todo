@@ -61,12 +61,8 @@ start [Rollup](https://rollupjs.org),
 ```bash
 npm run dev
 ```
+Rollup will buiild the static files and at the this point files will be served with ``firebase serve``. Check ``rollup.config.js`` to see how it works.
 
-Rollup will buiild the static files and at the this point files will be served with ``sirv`` static file server locally but wont serve correctly. Firebase files will be unavailable since ``sirv`` does not know how to get them. Kill ``sirv`` by pressing ``ctrl+c`` and serve using firebase cli instead.
-
-```bash
-firebase serve
-```
 At this point you can debug the app.
 
 ## Building in production mode
@@ -75,6 +71,11 @@ To create an optimised version of the app:
 
 ```bash
 npm run build
+```
+
+to serve use firebase cli,
+```bash
+firebase serve
 ```
 
 ## Deploying to firebase hosting
