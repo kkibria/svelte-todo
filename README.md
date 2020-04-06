@@ -48,7 +48,7 @@ Copy the Web client ID and save setting.  Lets say this value is ``somerandomstu
 ## Collection
 The collection ``todos`` will be created by the app automatically since the rule will allow creating a `todo` document inside the collection.
 
-## Get started
+# Get started
 
 Install the dependencies...
 
