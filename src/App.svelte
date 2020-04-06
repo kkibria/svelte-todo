@@ -28,4 +28,6 @@
 		Signin with Google
 	</button>
 {/if}
+<hr>
+<p><a href='https://github.com/kkibria/svelte-todo'>source code in github</a></p>
 </section>
