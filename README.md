@@ -73,7 +73,7 @@ To create an optimised version of the app:
 npm run build
 ```
 
-to serve use firebase cli,
+to serve locally use firebase cli,
 ```bash
 firebase serve
 ```
