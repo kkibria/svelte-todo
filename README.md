@@ -56,13 +56,12 @@ Install the dependencies,
 npm install
 ```
 
-start [Rollup](https://rollupjs.org),
+Start [Rollup](https://rollupjs.org),
 
 ```bash
 npm run dev
 ```
-Rollup will buiild the static files and at the this point files will be served with ``firebase serve``. Check ``rollup.config.js`` to see how it works.
-
+Rollup will buiild the static files and at the this point files will be served with ``firebase serve``. Check ``rollup.config.js`` to see how it works. 
 At this point you can debug the app.
 
 ## Building in production mode
