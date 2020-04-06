@@ -10,7 +10,7 @@ npx degit kkibria/svelte-todo my-svelte-todo-app
 cd my-svelte-todo-app
 ```
 
-# Add firebase to your code 
+## Add firebase to your code 
 Use firebase cli to initialize your code. 
 ```bash
 firebase init
@@ -30,9 +30,9 @@ Now the rest of the settings as following,
 ? File public/index.html already exists. Overwrite? No
 ```
 
-# Firebase authentication
+## Firebase authentication
 
-## google sign in
+### google sign in
 Enable the google sign-in in the authentication tab in firebase console for the project. In the enable dialog, expand the web SDK config.
 Copy the Web client ID and save setting.  Lets say this value is ``somerandomstuff.apps.googleusercontent.com``. Uncomment ``google-signin-client_id`` meta tag and copy the client ID value into the ``build/index.html`` file in a meta tag.
 
@@ -44,25 +44,25 @@ Copy the Web client ID and save setting.  Lets say this value is ``somerandomstu
 /head>
 ```
 
-# Firestore
-## Collection
-The collection ``todos`` will be created by the app automatically since the rule will allow creating a `todo` document inside the collection.
+## Firestore
+### Collection
+The collection ``todos`` will be created by the app automatically since the rule will allow creating a `todo` document inside the collection. You can check the firestore contents in firebase console while the app is running.
 
 # Get started
 
-Install the dependencies...
+Install the dependencies,
 
 ```bash
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+start [Rollup](https://rollupjs.org),
 
 ```bash
 npm run dev
 ```
 
-At the this point files will be served with ``sirv`` static file server locally but wont serve correctly. Firebase files will be unavailable since ``sirv`` does not know how to get them. Kill ``sirv`` by pressing ``ctrl+c`` and serve using firebase cli instead.
+Rollup will buiild the static files and at the this point files will be served with ``sirv`` static file server locally but wont serve correctly. Firebase files will be unavailable since ``sirv`` does not know how to get them. Kill ``sirv`` by pressing ``ctrl+c`` and serve using firebase cli instead.
 
 ```bash
 firebase serve
@@ -82,7 +82,7 @@ Use firebase cli,
 ```bash
 firebase deploy
 ```
-Now open the url provided at the end of deploy process.
+Your app is online now. The URL is provided at the end of deploy process. Open the URL in broweser to check.
 
 > *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*\
 > *Note that you will need to have [Node.js](https://nodejs.org) installed.*
