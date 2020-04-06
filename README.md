@@ -1,10 +1,12 @@
+This is a sample todo svelte + firebase app template inspired by a [fireship.io](https://fireship.io) article "[Svelte Realtime Todo List with Firebase](https://fireship.io/lessons/svelte-v3-overview-firebase/)" by [Jeff Delaney](https://fireship.io/contributors/jeff-delaney/).
+
 # Setup
 First go to firebase console and create a project ``my-svelte-todo-app`` and add a web app.
 Set up and initialize firestore. Following firebase documentation.
 Now lets get the coding started.
 Copy this template using degit to copy template on your machine.
 ```bash
-degit kkibria/svelte-todo my-svelte-todo-app
+npx degit kkibria/svelte-todo my-svelte-todo-app
 cd my-svelte-todo-app
 ```
 
@@ -64,13 +66,13 @@ npm install
 npm run dev
 ```
 
-At the this point files will be served with sirv static file server locally but wont firebase files will be unavailable since sirv does not know how to get them. Kill sirv by pressing ``ctrl+c`` and serve using firebase cli.
+At the this point files will be served with ``sirv`` static file server locally but wont serve correctly. Firebase files will be unavailable since ``sirv`` does not know how to get them. Kill ``sirv`` by pressing ``ctrl+c`` and serve using firebase cli instead.
 
 ```bash
 firebase serve
 ```
 
-## Building and running in production mode
+## Building in production mode
 
 To create an optimised version of the app:
 
@@ -84,3 +86,4 @@ Use firebase cli,
 ```bash
 firebase deploy
 ```
+Now open the url provided at the end of deploy process.
