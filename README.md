@@ -67,6 +67,7 @@ Rollup will buiild the static files and at the this point files will be served w
 ```bash
 firebase serve
 ```
+At this point you can debug the app.
 
 ## Building in production mode
 
@@ -82,7 +83,7 @@ Use firebase cli,
 ```bash
 firebase deploy
 ```
-Your app is online now. The URL is provided at the end of deploy process. Open the URL in broweser to check.
+Your app is online now. The URL is provided at the end of deploy process. Open the URL in a browser to check.
 
 > *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*\
 > *Note that you will need to have [Node.js](https://nodejs.org) installed.*
